@@ -1,0 +1,6 @@
+../source/Command.c:14:6:author	16	static
+../source/Command.c:19:6:hexdump	32	static
+../source/Command.c:40:6:dump	24	static
+../source/Command.c:62:6:help	24	static
+../source/Command.c:69:6:process_command	88	static
+../source/Command.c:119:6:command_processor	1024	static

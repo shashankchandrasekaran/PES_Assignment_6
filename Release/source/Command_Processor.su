@@ -1,0 +1,5 @@
+../source/Command_Processor.c:28:6:author	16	static
+../source/Command_Processor.c:34:6:dump	24	static
+../source/Command_Processor.c:54:6:help	24	static
+../source/Command_Processor.c:61:6:process_command	88	static
+../source/Command_Processor.c:119:6:command_processor	1024	static
