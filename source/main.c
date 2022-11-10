@@ -9,9 +9,7 @@
 #include "sysclock.h"
 #include "UART.h"
 #include "Command_Processor.h"
-# include "test_cbfifo.h"
-
-
+#include "test_cbfifo.h"
 
 int main(void)
 {
