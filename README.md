@@ -29,4 +29,4 @@ For the extra credit, Backspace is handled and help command is added.
 
 References were taken from Assignemnt 2, 2a and Dean's github link which are mentioned in the source files.
 
-The screenshots for terminal parameters and interactive terminal session are added to the git folder. These can be found as 2 .PNG files.
+The screenshots for terminal parameters and interactive terminal session are added to the main branch. These can be found as 2 .PNG files.
