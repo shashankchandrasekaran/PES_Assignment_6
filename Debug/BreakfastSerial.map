@@ -206,7 +206,7 @@ Discarded input sections
  .debug_macro   0x00000000      0x329 ./source/main.o
  .debug_macro   0x00000000       0x30 ./source/main.o
  .debug_macro   0x00000000     0x51e2 ./source/main.o
- .debug_macro   0x00000000       0x2e ./source/main.o
+ .debug_macro   0x00000000       0x40 ./source/main.o
  .group         0x00000000        0xc ./source/mtb.o
  .group         0x00000000        0xc ./source/mtb.o
  .group         0x00000000        0xc ./source/mtb.o
@@ -1151,7 +1151,7 @@ LOAD linker stubs
  .debug_ranges  0x00000240       0x10 ./source/test_cbfifo.o
  .debug_ranges  0x00000250       0x18 ./CMSIS/system_MKL25Z4.o
 
-.debug_macro    0x00000000     0xd4ca
+.debug_macro    0x00000000     0xd4dc
  .debug_macro   0x00000000       0x29 ./startup/startup_mkl25z4.o
  .debug_macro   0x00000029      0xa84 ./startup/startup_mkl25z4.o
  .debug_macro   0x00000aad       0xb6 ./source/Command_Processor.o
@@ -1169,24 +1169,24 @@ LOAD linker stubs
  .debug_macro   0x0000152e      0x329 ./source/UART.o
  .debug_macro   0x00001857       0x30 ./source/UART.o
  .debug_macro   0x00001887     0x51e2 ./source/UART.o
- .debug_macro   0x00006a69       0x2e ./source/UART.o
- .debug_macro   0x00006a97       0xd8 ./source/cbfifo.o
- .debug_macro   0x00006b6f       0x3f ./source/cbfifo.o
- .debug_macro   0x00006bae     0x51e2 ./source/cbfifo.o
- .debug_macro   0x0000bd90       0xd7 ./source/main.o
- .debug_macro   0x0000be67       0x10 ./source/main.o
- .debug_macro   0x0000be77       0x28 ./source/main.o
- .debug_macro   0x0000be9f       0x2f ./source/mtb.o
- .debug_macro   0x0000bece       0x82 ./source/mtb.o
- .debug_macro   0x0000bf50       0x10 ./source/mtb.o
- .debug_macro   0x0000bf60       0x11 ./source/semihost_hardfault.o
- .debug_macro   0x0000bf71       0x91 ./source/sysclock.o
- .debug_macro   0x0000c002       0x82 ./source/test_cbfifo.o
- .debug_macro   0x0000c084       0x16 ./source/test_cbfifo.o
- .debug_macro   0x0000c09a       0x94 ./CMSIS/system_MKL25Z4.o
- .debug_macro   0x0000c12e       0x10 ./CMSIS/system_MKL25Z4.o
- .debug_macro   0x0000c13e       0x3a ./CMSIS/system_MKL25Z4.o
- .debug_macro   0x0000c178     0x1352 ./CMSIS/system_MKL25Z4.o
+ .debug_macro   0x00006a69       0x40 ./source/UART.o
+ .debug_macro   0x00006aa9       0xd8 ./source/cbfifo.o
+ .debug_macro   0x00006b81       0x3f ./source/cbfifo.o
+ .debug_macro   0x00006bc0     0x51e2 ./source/cbfifo.o
+ .debug_macro   0x0000bda2       0xd7 ./source/main.o
+ .debug_macro   0x0000be79       0x10 ./source/main.o
+ .debug_macro   0x0000be89       0x28 ./source/main.o
+ .debug_macro   0x0000beb1       0x2f ./source/mtb.o
+ .debug_macro   0x0000bee0       0x82 ./source/mtb.o
+ .debug_macro   0x0000bf62       0x10 ./source/mtb.o
+ .debug_macro   0x0000bf72       0x11 ./source/semihost_hardfault.o
+ .debug_macro   0x0000bf83       0x91 ./source/sysclock.o
+ .debug_macro   0x0000c014       0x82 ./source/test_cbfifo.o
+ .debug_macro   0x0000c096       0x16 ./source/test_cbfifo.o
+ .debug_macro   0x0000c0ac       0x94 ./CMSIS/system_MKL25Z4.o
+ .debug_macro   0x0000c140       0x10 ./CMSIS/system_MKL25Z4.o
+ .debug_macro   0x0000c150       0x3a ./CMSIS/system_MKL25Z4.o
+ .debug_macro   0x0000c18a     0x1352 ./CMSIS/system_MKL25Z4.o
 
 .debug_line     0x00000000     0x2369
  .debug_line    0x00000000      0x1ed ./startup/startup_mkl25z4.o
@@ -1201,28 +1201,28 @@ LOAD linker stubs
  .debug_line    0x00001942      0x6f4 ./source/test_cbfifo.o
  .debug_line    0x00002036      0x333 ./CMSIS/system_MKL25Z4.o
 
-.debug_str      0x00000000    0x30f48
+.debug_str      0x00000000    0x30f6f
  .debug_str     0x00000000     0x30ac ./startup/startup_mkl25z4.o
                                0x30e1 (size before relaxing)
  .debug_str     0x000030ac      0xb0f ./source/Command_Processor.o
                                0x383c (size before relaxing)
  .debug_str     0x00003bbb       0x61 ./source/Hexdump.o
                                0x3583 (size before relaxing)
- .debug_str     0x00003c1c    0x25c75 ./source/UART.o
-                              0x2941b (size before relaxing)
- .debug_str     0x00029891       0xf1 ./source/cbfifo.o
+ .debug_str     0x00003c1c    0x25c9c ./source/UART.o
+                              0x29442 (size before relaxing)
+ .debug_str     0x000298b8       0xf1 ./source/cbfifo.o
                               0x290b9 (size before relaxing)
- .debug_str     0x00029982       0x53 ./source/main.o
-                              0x28df5 (size before relaxing)
- .debug_str     0x000299d5      0x532 ./source/mtb.o
+ .debug_str     0x000299a9       0x53 ./source/main.o
+                              0x28e1c (size before relaxing)
+ .debug_str     0x000299fc      0x532 ./source/mtb.o
                                0x3201 (size before relaxing)
- .debug_str     0x00029f07       0x1f ./source/semihost_hardfault.o
+ .debug_str     0x00029f2e       0x1f ./source/semihost_hardfault.o
                                0x2cee (size before relaxing)
- .debug_str     0x00029f26       0x38 ./source/sysclock.o
+ .debug_str     0x00029f4d       0x38 ./source/sysclock.o
                               0x28c85 (size before relaxing)
- .debug_str     0x00029f5e      0x1c1 ./source/test_cbfifo.o
+ .debug_str     0x00029f85      0x1c1 ./source/test_cbfifo.o
                                0x37ac (size before relaxing)
- .debug_str     0x0002a11f     0x6e29 ./CMSIS/system_MKL25Z4.o
+ .debug_str     0x0002a146     0x6e29 ./CMSIS/system_MKL25Z4.o
                               0x2fb30 (size before relaxing)
 
 .comment        0x00000000       0x49

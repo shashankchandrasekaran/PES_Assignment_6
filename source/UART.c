@@ -38,11 +38,10 @@ void Init_UART0(uint32_t baud_rate)
 	UART0->C4 |= UART0_C4_OSR(UART_OVERSAMPLE_RATE-1);
 
 	//Interrupts for RX active edge and LIN break detect set, one stop bit selected
-	//SBNS set to 1 for 2 stop bits
-	UART0->BDH |= UART0_BDH_RXEDGIE(0) | UART0_BDH_SBNS(1) | UART0_BDH_LBKDIE(0);
+	UART0->BDH |= UART0_BDH_RXEDGIE(0) | UART0_BDH_SBNS(STOP_BITS) | UART0_BDH_LBKDIE(0);
 
 	//Don't enable loopback mode, use 8 data bit mode, don't use parity
-	UART0->C1 = UART0_C1_LOOPS(0) | UART0_C1_M(0) | UART0_C1_PE(0);
+	UART0->C1 = UART0_C1_LOOPS(0) | UART0_C1_M(DATA_SIZE) | UART0_C1_PE(PARITY);
 	//Don't invert transmit data, don't enable interrupts for errors
 	UART0->C3 = UART0_C3_TXINV(0) | UART0_C3_ORIE(0)| UART0_C3_NEIE(0)
 											| UART0_C3_FEIE(0) | UART0_C3_PEIE(0);

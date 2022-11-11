@@ -13,7 +13,11 @@
 #include <stdint.h>
 #include "cbfifo.h"
 
-#define BAUD_RATE  (38400) //38400 baud rate
+#define BAUD_RATE (38400) //38400 baud rate
+#define DATA_SIZE (0) // Data size 8 bits
+#define PARITY (0) //Parity None
+#define STOP_BITS (1) //2 Stop bits
+
 #define USE_UART_INTERRUPTS  (0) //0 for polled UART communications, 1 for interrupt-driven
 #define UART_OVERSAMPLE_RATE (16)
 #define BUS_CLOCK (24e6)
